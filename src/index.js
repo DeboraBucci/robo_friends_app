@@ -5,7 +5,10 @@ import Hello from "./Hello";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 
-ReactDOM.render(<Hello />, document.getElementById("root"));
+ReactDOM.render(
+  <Hello greeting={"Hello, " + "React Ninja!"} />,
+  document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
