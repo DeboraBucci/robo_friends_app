@@ -1,3 +1,13 @@
+div {
+  font-family: monospace;
+}
+
 h1 {
-  background-color: red;
+  background-color: hotpink;
+  color: white;
+  padding: 20px;
+}
+
+p {
+  color: #585858;
 }
